@@ -1,0 +1,78 @@
+#sing up for github account
+#login in
+#create repository (click on initialize readme file
+#reame is going to be where you instruct people what to do about your git
+
+
+##############################################################
+$ git clone [https/SSH clone link] 
+##############################################################
+Cloning /Downloading github repository onto your machine
+--------------------------------------------------------------
+ex: $ git clone https://github.com/neopermatrix/githubNote.git
+
+
+
+
+
+##############################################################
+$ git status
+##############################################################
+see the difference between your local repository and github repository
+--------------------------------------------------------------
+
+
+
+
+##############################################################
+$ git add [new_filename]
+##############################################################
+add any changes or new files on github by file name
+--------------------------------------------------------------
+ex: $ git add github_tutorial.cpp
+
+
+
+##############################################################
+$ git add -A
+or 
+$ git add .
+##############################################################
+add all
+--------------------------------------------------------------
+
+
+
+
+##############################################################
+$ git commit -m "leave_a_message"
+##############################################################
+commit/lock what has changed or updated onto local github on your machine
+and it is not synced up to github.com yet
+--------------------------------------------------------------
+ex: $ git commit -m "added github_tutorial.cpp"
+
+
+
+**************************************************************
+$ git config --global user.email "you@example.com"
+$ git config --global user.name "Your Name"
+**************************************************************
+before you can commit maybe you're asked to run this two command to let github who you are/which one is your account
+--------------------------------------------------------------
+ex: 
+$ git config --global user.email "sounpanha10@gmail.com"
+$ git config --global user.name "neopermatrix"
+
+
+##############################################################
+$ git push
+##############################################################
+this going to push everything on our local machine onto github.com
+--------------------------------------------------------------
+
+
+
+##############################################################
+$ git pull
+##############################################################
